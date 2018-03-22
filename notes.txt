@@ -1,0 +1,10 @@
+
+all of the files in /saves will be generated automatically by the game's state and needn't be hard coded.
+
+on the other side, all of the files in the /locs folder must be hard coded, and are the actual zone and node definitions
+    note: in these files, when defining a connected node, you needn't specify the zone unless the target node isn't in the shared zone.
+        properties can be defined, or not. once hard defined, they'll be added to the object.
+        when loading a save file, the save will overwrite the definition.
+        these values will depend on the actual object values and can be used and changed in the actual behavior definitions later.
+
+        also, with the direction definitions, you're not limited to cardinal directions. The direction field can be named literally anything.

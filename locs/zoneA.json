@@ -1,0 +1,37 @@
+
+{
+  "zoneA":{
+    "nodeA": {
+      "name": "The First A Node",
+      "behavior": "nobeh",
+      "connected":{
+        "E": "zoneB.nodeB"
+      },
+      "properties":{
+        "rain":0,
+        "looted":false,
+        "applesleft":10
+      }
+    },
+    "nodeB": {
+      "name": "The Second A Node",
+      "behavior": "beh1",
+      "connected":{
+        "W": "nodeA",
+        "N": "nodeC"
+      },
+      "properties":{
+        "prop1":0,
+        "prop2":0,
+        "dragonkilled":false
+      }
+    },
+    "nodeC": {
+      "name": "The Third A Node",
+      "behavior": "nobeh",
+      "connected":{
+        "S": "nodeB"
+      }
+    }
+  }
+}

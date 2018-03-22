@@ -1,0 +1,29 @@
+
+{
+  "loc":{
+    "zoneA.nodeA":{
+      "revealed":true,
+      "rain":2,
+      "looted":true,
+      "applesleft":0
+    },
+    "zoneA.nodeB":{
+      "revealed":true,
+      "prop1":4,
+      "prop2":5,
+      "dragonkilled":true
+    }
+  },
+  "party":{
+    "loc":"node rawname example-> zoneA.nodeA",
+    "inventory":["item1","item2","item3"],
+    "characters":{
+      "CharA":{
+        "info":"someinfo"
+      },
+      "CharB":{
+        "info":"someinfo"
+      }
+    }
+  }
+}

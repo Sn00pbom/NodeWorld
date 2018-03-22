@@ -1,0 +1,27 @@
+
+{
+  "zoneB":{
+    "nodeA": {
+      "name": "The First B Node",
+      "behavior": "nobeh",
+      "connected":{
+        "E": "zoneA.nodeB"
+      }
+    },
+    "nodeB": {
+      "name": "The Second B Node",
+      "behavior": "beh1",
+      "connected":{
+        "W": "nodeA",
+        "N": "nodeC"
+      }
+    },
+    "nodeC": {
+      "name": "The Third B Node",
+      "behavior": "nobeh",
+      "connected":{
+        "S": "nodeB"
+      }
+    }
+  }
+}
